@@ -10,7 +10,7 @@ setup(
     description='Django middlewares used for mediapops projects',
     license='BSD',
     long_description=open('README.md').read(),
-    packages=['django-middlewares'],
+    packages=['mediapop'],
     package_data={
         '': ['README.md']
     },
