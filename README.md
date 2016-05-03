@@ -7,7 +7,6 @@ Middlewares used for mediapop's projects.
 * Nginx:
 ```
 set_real_ip_from 127.0.0.1;
-set_real_ip_from 192.168.2.1;
 real_ip_header X-Forwarded-For;
 real_ip_recursive on;
 ```
