@@ -1,4 +1,4 @@
-# Mediapop Middlewares
+# Mediapop Django Middlewares
 
 Middlewares used for mediapop's projects.
 
@@ -14,8 +14,8 @@ real_ip_recursive on;
 * Django:
 ```
 MIDDLEWARE_CLASSES = (
-    ...................
+    # ...
     'mediapop.middleware.realip.RealIP',
-    ...................
+    # ...
 )
 ```
