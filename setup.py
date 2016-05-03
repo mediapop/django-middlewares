@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name='django-middlewares',
@@ -10,7 +10,7 @@ setup(
     description='Django middlewares used for mediapops projects',
     license='BSD',
     long_description=open('README.md').read(),
-    packages=['mediapop'],
+    packages=find_packages(),
     package_data={
         '': ['README.md']
     },
